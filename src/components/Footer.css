@@ -1,0 +1,113 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #0a4275; /* Dark blue background */
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-links {
+    margin-bottom: 20px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #ffd700; /* Gold color on hover */
+  }
+  
+  .footer-subscription {
+    margin-bottom: 20px;
+  }
+  
+  .footer-subscription h2 {
+    margin: 0;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-subscription form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer-subscription input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 250px;
+  }
+  
+  .footer-subscription button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffd700; /* Gold color for button */
+    color: #0a4275;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer-subscription button:hover {
+    background-color: #ffa500; /* Darker gold on hover */
+  }
+  
+  .footer-social {
+    margin-bottom: 20px;
+  }
+  
+  .footer-social a {
+    color: white;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #ffd700; /* Gold color on hover */
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
